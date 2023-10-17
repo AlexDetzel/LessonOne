@@ -6,4 +6,12 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Data\" />
+    <Folder Include="Modles\" />
+    <Folder Include="Infrastructure\" />
+    <Folder Include="Service\" />
+    <Folder Include="ViewModels\" />
+  </ItemGroup>
+
 </Project>
