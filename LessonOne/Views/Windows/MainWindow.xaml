@@ -20,8 +20,11 @@
             </MenuItem>
         </Menu>
         <StatusBar DockPanel.Dock="Bottom">
-            <StatusBarItem>
+            <StatusBarItem MinWidth="100" MaxWidth="200">
                 <TextBlock Text="12345"></TextBlock>
+            </StatusBarItem>
+            <StatusBarItem>
+                <ProgressBar Width="123" Height="14" Value="30"/>
             </StatusBarItem>
         </StatusBar>
         <TabControl>
@@ -40,6 +43,9 @@
                                RadiusY="7"/>
                     <Ellipse Grid.Row="0" Grid.Column="1" 
                              Fill="MediumPurple" Stroke="Gray" StrokeThickness="10"/>
+                    <GridSplitter Grid.Column="0" Grid.Row="0" Grid.RowSpan="2"
+                                  HorizontalAlignment="Right"
+                                  Width="4"/>
                 </Grid>
             </TabItem>
             <TabItem Header="Tab2"></TabItem>

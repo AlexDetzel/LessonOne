@@ -9,7 +9,6 @@
   <ItemGroup>
     <Folder Include="Data\" />
     <Folder Include="Modles\" />
-    <Folder Include="Infrastructure\" />
     <Folder Include="Service\" />
   </ItemGroup>
 

@@ -23,5 +23,15 @@ namespace LessonOne.ViewModels
             }
         }
         #endregion
+
+        #region Status Program
+        private string _Status = "Готово";
+        public string Status
+        {
+            get => _Status;
+            set => Set(ref _Status, value);
+        }
+
+        #endregion
     }
 }
